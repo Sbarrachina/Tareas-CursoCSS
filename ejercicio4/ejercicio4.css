@@ -1,0 +1,160 @@
+/* combinadores */
+
+.combinadores{
+    font-family: Arial; 
+    background-color: #409111;
+}
+		#container4{
+            margin: auto; 
+            width: 300px;
+        }
+
+		.opcion div{
+            line-height: 20px;
+            /* entrelineado */
+        }
+        /* hijos */
+
+		.opcion > div{
+            padding: 10px; background-color: #003366; 
+            color: white;
+        }
+		.opcion > div + div{
+            padding: 0;
+            /* podemos hacerlo también con clases */
+        }
+		.opcion > div + div img ~ div{
+            background-color: white; 
+            color: black;
+             padding: 10px;
+            }
+            /* para asociar a los hermano  ~  /* combinadores */
+
+.combinadores{
+    font-family: Arial; 
+    background-color: #409111;
+}
+		#container4{
+            margin: auto; 
+            width: 300px;
+        }
+
+		.opcion div{
+            line-height: 20px;
+        }
+		.opcion > div{
+            padding: 10px; background-color: #003366; 
+            color: white;
+        }
+		.opcion > div + div{
+            padding: 0;
+        }
+		.opcion > div + div img ~ div{
+            background-color: white; 
+            color: black;
+             padding: 10px;
+            }
+		.opcion > div + div img + div{
+            font-size: 10px; 
+            font-style: italic;
+        }
+		.opcion > div + div{
+            display: none;
+        }
+		.opcion > div:hover + div{
+            display: block;
+        } */
+		.opcion > div + div img + div{
+            font-size: 10px; 
+            font-style: italic;
+        }
+		.opcion > div + div{
+            display: none;
+        }
+		.opcion > div:hover + div{
+            display: block;
+        }
+
+        .teoria1{
+            margin: 80px auto;
+            padding: 30px;
+        }
+
+        /* Combinadores usando clases */
+
+        .combinadores{
+            font-family: Arial; 
+            background-color: #409111;
+        }
+                #container4{
+                    margin: auto; 
+                    width: 300px;
+                }
+        
+                .opcion div{
+                    line-height: 20px;
+                    /* entrelineado */
+                }
+                /* hijos */
+        
+                .opcion > div{
+                    padding: 10px; background-color: #003366; 
+                    color: white;
+                }
+                .opcion > div + div{
+                    padding: 0;
+                    /* podemos hacerlo también con clases */
+                }
+                .opcion > div + div img ~ div{
+                    background-color: white; 
+                    color: black;
+                     padding: 10px;
+                    }
+                    /* para asociar a los hermano  ~  /* combinadores */
+        
+        .combinadores-clases{
+            font-family: Arial; 
+            background-color: #8dbbd2;
+        }
+                #container5{
+                    margin: auto; 
+                    width: 300px;
+                }
+        
+                .opcion2 div{
+                    line-height: 20px;
+                }
+                .opcion2 .titulo{
+                    padding: 10px; background-color: #b178e3; 
+                    color: white;
+                }
+                .opcion2 .titulo .parrafo{
+                    padding: 0;
+                }
+                .opcion2 .titulo + .imagenes img ~ div{
+                    background-color: white; 
+                    color: black;
+                     padding: 10px;
+                    }
+                .opcion2 .titulo + .imagenes img + div{
+                    font-size: 10px; 
+                    font-style: italic;
+                }
+                .opcion2 .titulo + div{
+                    display: none;
+                }
+                .opcion2 > .titulo:hover + div{
+                    display: block;
+                } */
+                .opcion2 > .titulo .imagenes img + div{
+                    font-size: 10px; 
+                    font-style: italic;
+                }
+                .opcion2 > .titulo + div{
+                    display: none;
+                }
+                .opcion2 > .titulo:hover + div{
+                    display: block;
+                }
+        
+        

@@ -1,0 +1,94 @@
+/* aplicación de estilos css */
+
+.pizza{
+/* body */background-image: url(/imagenes/fondo.jpg);
+
+}
+
+h1{
+    border-bottom: dotted 2px #ccc;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    background-color: blue;
+}
+#main-container{
+    width: 500px;
+    font-family: Arial;
+}
+#content{
+    background-color: white;
+}
+#descripcion{
+    color: #666;
+    font-size: 0.8125em;
+}
+#boton-content{
+    text-align: center;
+}
+.boton{
+    color: white;
+    background-color: red;
+
+
+}
+
+/* Espacio interior con padding */
+
+.phone{ 
+    /* body */
+    background-color: #365CA3;
+    font-family: Helvetica;
+}
+a{
+    color: #3A77E8;
+    text-decoration: none;
+}
+#container{
+    margin: 0 auto;
+}
+#container{
+    background-color: white;
+    width: 600px;
+    padding: 50px;
+}
+#imagen{
+    padding-bottom: 20px;
+}
+#social{
+    padding: 20px 0;
+    /* 10px arriba y abajo
+    0 a los lados  */
+
+}
+
+/* formulario ejempplo */
+
+.form{
+    /* body */
+    background-color: #DE6F14;
+    font-family: Helvetica;
+}
+#contenedor{
+    margin: 0 auto;
+}
+#contenedor{
+    background-color: white;
+    padding: 20px;
+    width: 400px;
+}
+.campo{
+    padding: 20px 0;
+
+}
+.campo input, .campo textarea{
+    padding: 10px;
+    width: 350px;
+}
+.botonForm{
+    border: 0;
+}
+

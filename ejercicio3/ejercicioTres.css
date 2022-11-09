@@ -1,0 +1,73 @@
+/* propiedad position*/
+
+ .position1{
+    background-color: #CF212A;
+}
+
+#container{
+    margin-top: 100px;
+    text-align: center;
+}
+
+ #imagen04{
+    position: relative;
+    left: 100px;
+ }
+    /* mover elemento  */
+ 
+
+/* Ejemplo dos */
+ 
+.position-2{
+    background-color: #CF212A;
+}
+#container-2{
+    margin-top: 100px;
+    text-align: center;
+}
+.image{
+    display: inline-block;
+    width: 300px;
+}
+.name{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    width: 100px;
+    display: none;
+    position: absolute;
+    /* flota el elemento */
+    margin-left: 90px;
+    top: 700px;
+}
+
+.image:hover .name{
+display: block;
+}
+
+/* Ejemplo 3 floto flotante  fija */
+
+.position3{
+    background-color: #CF212A;
+}
+
+#container3{
+    margin-top: 100px;
+    text-align: center;
+}
+
+#perfil{
+    color: white;
+    width: 350px;
+    left: 0;
+    top: 50px;
+    position: fixed;
+}
+
+#content{
+    color: white;
+    text-align: left;
+    font-size: 2em;
+    width: 600px;
+    margin-left: 350px;
+}

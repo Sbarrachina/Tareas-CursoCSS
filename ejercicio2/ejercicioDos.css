@@ -1,0 +1,199 @@
+/* uso de margenes */
+
+body
+{
+    background-color: #eee;
+
+}
+.margenes{
+    /* body */
+    background-color: #eee;
+    margin: 0;
+}
+
+#container{
+    background-color: #bbb;
+    padding: 25px;
+    width: 500px;
+    margin: 80px auto;
+    /* efecto de centrado */
+}
+#container img{
+    margin: -5px;
+    width: 250px;
+}
+/* Estilizando listas */
+
+.listas{
+    background-color: #FF6200;
+}
+
+#contenedor{
+    background-color: #fff;
+    margin: 0 auto;
+    padding: 15px;
+    width: 500px;
+}
+
+#contenedor ul{
+    background-color: #bbb;
+    /* inside, outside */
+    list-style-position: outside;
+    /* disc,circle,lower| upper (roman,latin),square */
+    list-style-type: lower-alpha;
+    list-style-image: url(/imagenes/bullet.png);
+    /* imagen personalizada */
+}
+
+#contenedor ul li{
+    background-color: #ddd;
+}
+/* uso de propiedad display */
+
+#container-3{
+    border: solid 1px #ccc;
+    width:100px ;
+}
+
+.display{
+    /* body */
+    background-color: #E83FA7;
+}
+
+#container-3{
+    background-color: #fff;
+    margin: 150px auto;
+    padding: 15px;
+    width: 500px;
+}
+
+#container-3 .card{
+    border: solid 1px #ccc;
+    padding: 10px;
+    width: 100px;
+
+    display: inline-block;
+    /* en linea y en bloque */
+    /* bock en bloque */
+    /* inline en linea */
+    /* none oculta los elementos */
+
+
+
+}
+
+#container-3 .card h2{
+    background-color: #eee;
+}
+
+/* aplicaciones de estilos */
+
+.app-estilos{
+    /* body */
+
+    font-family: Arial;
+    font-size: 0.9em;
+    background-color: #a8c1f0;
+}
+
+a{
+    text-decoration: none;
+}
+#container-4{
+    padding: 0;
+    margin: 0;
+}
+
+#post{
+    background-color: white;
+    margin: 100px auto;
+    padding: 15px;
+    width: 480px;
+}
+#post #header div{
+display: inline-block;
+vertical-align: top;
+/* coloca el texto arriva vertical */
+}
+
+#post #header #logo{
+    padding: 0 10px 10px 0;
+}
+#post #header #profile-info div{
+display: block;
+}
+#post #header #profile-info a:hover{
+    text-decoration: underline ;
+    /* subrayar los links cuando pasamos 
+    ratón */
+}
+
+#post #header #profile-info #profile-name{
+    margin: 5px 0 5px 0;
+}
+#post #header #profile-info #profile-name a{
+font-weight: bolder;
+color: #3761ad;
+}
+#post #header #profile-info #post-time a{
+    color:#bbb ;
+}
+
+#post #info-post{
+    font-size: 0.9em;
+}
+#post #info-post a{
+    color: black;
+}
+#post #info-post #image{
+margin-bottom: -5px;
+}
+
+#post #info-post #content{
+    border: solid 2px #ddd;
+    padding: 10px;
+}
+#post #info-post #content h2{
+    margin: 0;
+}
+#post #info-post #content #footer{
+    color: #bbb;
+    padding: 0;
+    margin: 0;
+}
+
+#post #social{
+    color: #999;
+    margin-top: 10px;
+}
+#post #social a{
+    color: #999;
+}
+
+#post #social a:hover{
+    text-decoration: underline;
+}
+#post #social #statistics #likes img{
+display: inline-block;
+vertical-align: middle;
+margin-right: 5px;
+
+}
+#post #social #statistics div{
+    display: inline-block;
+    vertical-align: top;
+    width: 49%;
+}
+#post #social #statistics #comments{
+    text-align: right;
+    font-size: 0.9em;
+}
+#post #social #actions{
+    border-top: solid 1px #ddd;
+    padding-top: 10px;
+    margin: 10px;
+}
+#post #social #actions a{
+    font-weight: bold;
+    padding: 10px 30px 10px 0;
+}

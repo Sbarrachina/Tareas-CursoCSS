@@ -1,0 +1,162 @@
+/* cambiar color a nuestro texto */
+
+h1{
+color: red;
+}
+
+h2{
+color: #2b68ed;
+}
+
+h3{
+color: rgb(132, 224, 90);
+}
+
+/* tipo de tamaño de fuente */
+
+.h1{
+color: black;
+font-family: 'Helvetica', Arial;
+font-size: 40px;
+}
+
+.h2{
+color: black;
+font-family: Verdana;
+font-size: 20px;
+}
+p{
+    font-size: 18px;
+}
+
+/* unidad de medidas para fuentes */
+/* teroria
+1em = 16px
+ dividir en entre 16 para obtener
+ la medida.
+
+*/
+
+.h2-1{
+font-size: 1.875em;
+/* 30px */
+}
+
+.p{
+    font-size: 0.875em;  
+    /* 14px */
+}
+
+/* links */
+
+a{
+    font-size: 5em;
+    padding: 20px;
+
+    /* teoria:
+    Los 4 estados */
+}
+a:link{
+    background-color: #ededed;
+    color: black;
+    text-decoration: none;
+
+}
+a:visited{
+    color: #999999;
+
+}
+
+a:hover{
+    background-color: red;
+    color: white;
+
+}
+
+a:active{
+
+    background-color: #9e1c1c;
+}
+/* uso de bordes */
+/* teoria:
+
+border-style (estilo)
+none: no se aplica ningún borde;
+dotted:punteado;
+dashed: discontinuo;
+solid: solido;
+double: doble;
+groove: surco
+ridge: cresta;
+inset: recuadro interior;
+outset: recuadro exterior;
+
+border-width (ancho)
+unidades de medida: px, %, etc;
+medidas en inglés : thin,medium,thick;
+
+border-color (color)
+hexadecimal, inglés o rgb
+*/
+
+#main-container-table{
+font-size: 4em;
+}
+
+table{
+    border-top-style: double;
+    border-bottom-style: dotted;
+    border-left-style: inset;
+    border-right-style: dashed;
+    border-width: 10px;
+
+    border-top-color: red;
+    border-bottom-color: orange;
+    border-left-color: green;
+    border-right-color: blue;
+
+
+    
+}
+
+th{
+    /* border-style: dotted;  */
+    /* punteado */
+    /* border-style: inset; */
+    /* con relieve */
+    /* border-style:double ; */
+    /* doble */
+    /* border-width: 10px;
+    border-color: #1dc223; */
+
+}
+
+td{
+ /* border-style: dotted;  */
+    /* punteado */
+    /* border-style: inset; */
+    /* con relieve */
+
+    /* border-style:double ;
+    /* doble */
+
+    /* border-width: 10px;
+    border-color: #1dc223; */ 
+
+}
+/*  sintaxis de los bordes */
+
+#main-container-table2{
+    font-size: 4em;
+    }
+    .table2{
+        border:solid 1px #ccc;
+    
+    
+        
+    }
+
+    .table2 ,th ,td {
+        border: solid 1px #ccc;
+    }
+    

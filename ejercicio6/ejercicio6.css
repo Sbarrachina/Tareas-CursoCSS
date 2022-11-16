@@ -154,7 +154,7 @@ background: radial-gradient " no existe dirección sin To"
 			padding: 100px  0 0 40px;
 			margin: 0;
 		}
-		h2{
+		.texto{
 			color: rgba(255,255,255,0.7);
 			font-size: 20px;
 			padding: 0  0 0 40px;
@@ -172,4 +172,56 @@ background: radial-gradient " no existe dirección sin To"
 
         /* fuentes web  */
 
-        
+		@font-face{
+			font-family: MiFuente;
+			src: url(AlfaSlabOne-Regular.ttf);
+		}
+		.fuentesweb{
+			background-color: #f5f5f5;
+			padding: 0; 
+			margin: 0;
+			font-family: MiFuente;
+		}
+		
+		#menu{
+			text-align: center;
+		}
+
+		ul{
+			padding: 0;
+			 margin: 0;
+			}
+		li{
+			list-style: none;
+			 display: inline-block;
+			}
+		li a{
+			display: inline-block;
+			 color: #333; 
+			 text-decoration: none; 
+			 padding: 20px 50px;}
+
+			 a:hover{
+				color: red;
+			 }
+
+		#container4{
+			background: url(/ejercicio6/imagenes/bg.jpg);
+			background-size: 1920px;
+			background-position: 300px;
+			margin: 0 auto;
+			height: 1000px;
+			max-height: 1000px;
+		}
+
+		#container4 {
+			font-family: Mifuente;
+			font-size: 70px;
+			padding: 200px 100px;
+		}
+		/*
+		descargar en google fonts 
+
+
+
+		 */

@@ -112,18 +112,18 @@ opacity: 1;
 
 
   .photo-2 { grid-area: photo-2;
-    background-image: url(#);
+    background-image: url(imagenes/web_2_responsive.png);
     height: 250px;
 
 }
   
   .photo-3 { grid-area: photo-3; 
-    background-image: url(#);
+    background-image: url(imagenes/web_responsive2.png);
 
 }
   
   .photo-4 { grid-area: photo-4;
-    background-image: url(#);
+    background-image: url(imagenes/web_responsive3.png);
 
 }
   
@@ -192,7 +192,7 @@ opacity: 1;
 
 
   .photo-2-2 { grid-area: photo-2;
-    background-image: url(#);
+    background-image: url();
     height: 250px;
 
 }

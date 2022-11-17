@@ -1,0 +1,226 @@
+/* transiciones básicas css3 */
+
+/* ejemplo Uno */
+.transiciones{
+    background: #1D4EA3;
+}
+		#container{
+			text-align: center;
+		}
+
+		#imagen{
+			width: 400px;
+			transition: width 4s, border-radius 1s;
+    /* ponemos la duración de la transicion */
+
+		}
+
+		#imagen:hover{
+			border-radius: 50%;
+			width: 600px;
+
+            /* lo que queremos que haga, en este caso, que 
+            cambien el ancho y el borde */
+		}
+        /* ejemplo Dos */
+
+        .transiciones2{
+            background: #1D4EA3;
+        }
+
+		#container2{
+			margin-top: 150px;
+			text-align: center;
+		}
+
+		#container2 div{
+			background-color: #F7D23E;
+			display: inline-block;
+			vertical-align: top;
+			height: 30px;
+			width: 300px;
+		}
+		#imagen1{
+			transition: all linear 8s;
+		}
+
+		#imagen2{
+			transition: all ease  8s;
+		}
+
+		#imagen3{
+			transition: all ease-in  8s;
+		}
+
+		#imagen4{
+			transition: all ease-out  8s;
+		}
+
+		#imagen5{
+			transition: all ease-in-out 8s;
+		}
+
+		#container2:hover div{
+			height: 600px;
+		}
+
+        /* tipo de transiciones 
+
+        linear, (lineal)
+        ease- Accelera la animación al inicio y la deselera al final
+        ease-in- Animación más lenta al inicio y que vaya lineal y más ràpido al final. 
+        ease-out- lo contrario de ease -in 
+        ease in-out- Convinación de las dos 
+        (suavizados) 
+
+        
+        */
+
+        /* TRANSFORMACIONES EN 2D */
+
+        .transformaciones2D{
+			background-color: #222;
+		}
+		#container3{width: 1270px; margin: 0 auto;}
+		.transf{
+			background-color: black;
+			box-sizing: border-box;
+			display: inline-block;
+			vertical-align: top;
+			margin: 10px;
+			height: 400px;
+			width: 400px;
+		}
+
+		#capa02{font-size: 72px; color: white; padding: 140px 0; text-align: center;}
+		#capa03{background: linear-gradient(#46D6E0, #4658E0);}
+		#capa04{background-color: #FF7300; padding: 20px;}
+
+
+		#capa01,#capa02,#capa03,#capa04,#capa05,#capa06{transition: all 1s;}
+
+		/* TRANSLATE*/
+		#capa01:hover{
+            transform: translate(-50px, 600px);
+        }
+		/* ROTATE */
+		#capa02:hover{
+            transform: rotate(-180deg);
+        }
+		/* SKEWX -rasgar hacia un lado */
+		#capa03:hover{
+            transform: skewX(50deg);
+        }
+		/* SKEWY */ 
+		#capa04:hover
+        {transform: skewY(-30deg);
+        }
+		/* SCALE */
+		#capa05:hover{
+            transform: scale(2,5);
+        }
+		/* MATRIX - SCALEX, SKEWY, SKEWX, SCALEY, TRANSLATEX, TRANSLATEY */
+		#capa06:hover{
+             transform: matrix(2,20,0, 2, 100, 200); 
+            }
+
+
+            /* TRANSFORMACIONES 3D */
+
+            .transformaciones3D{
+                background-color: #2F3B40;
+            }
+
+		#container4{
+			perspective: 500px;
+			width: 700px;
+			margin: 200px auto;
+		}
+
+		#imagen{
+			transition: all 1s;
+		}
+        #imagen2{
+			transition: all 1s;
+		}
+
+        #imagen3{
+			transition: all 1s;
+		}
+       
+
+		#imagen:hover{
+			/* rotateZ */
+			
+			/* translateZ */
+			
+			/* scaleZ */
+			transform: translateZ(200px) scaleZ(2);
+		}
+
+        #imagen2:hover{
+			/* rotateZ */
+            transform: rotateZ(180deg)			
+			/* translateZ */
+			
+			/* scaleZ */
+		}
+
+        #imagen3:hover{
+			/* rotateZ */
+			
+			/* translateZ */
+            transform: translateX(300px)
+			
+			/* scaleZ */
+		}
+
+        /* Cubo en 3D */
+
+        #container5{
+			perspective: 800px;
+			margin: 200px auto;
+			width: 500px;
+		}
+		
+		#cubo{
+			transform-style: preserve-3d;
+			width: 500px;
+			height: 500px;
+
+			transform: rotateY(45deg);
+            /* inspeccionar y rotar manualmente cubo */
+            
+          
+
+		}
+		.cara{
+			position: absolute;
+			height: 500px;
+			width: 500px;
+		}
+		
+		.enfrente{
+			background-color: rgba(95,27,188,0.5);
+			transform: translateZ(250px);
+		}
+		.atras{
+			background-color: rgba(95,242,81,0.5);
+			transform: translateZ(-250px);	
+		}
+		.arriba{
+			background-color: rgba(95,188,27,0.5);
+			transform: translateY(-250px) rotateX(90deg);
+		}
+		.abajo{
+			background-color: rgba(95,81,244,0.5);
+			transform: translateY(250px) rotateX(90deg);	
+		}
+		.izquierda{
+			background-color: rgba(201,54,122,0.5);
+			transform: translateX(-250px) rotateY(90deg);
+		}
+		.derecha{
+			background-color: rgba(196,201,54,0.5);
+			transform: translateX(250px) rotateY(90deg);
+		}

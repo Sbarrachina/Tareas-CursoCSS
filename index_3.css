@@ -123,7 +123,7 @@ opacity: 1;
 }
   
   .photo-4 { grid-area: photo-4;
-    background-image: url(#);
+    background-image: url(/imagenes/animacion.png);
 
 }
   
@@ -192,18 +192,18 @@ opacity: 1;
 
 
   .photo-2-2 { grid-area: photo-2;
-    background-image: url();
+    background-image: url(/imagenes/animaciones2.png);
     height: 250px;
 
 }
   
   .photo-3-3 { grid-area: photo-3; 
-    background-image: url(#);
+    background-image: url(/imagenes/animacion5.png);
 
 }
   
   .photo-4-4 { grid-area: photo-4;
-    background-image: url(#);
+    background-image: url(/imagenes/animacion6.gif);
 
 }
 

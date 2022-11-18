@@ -1,0 +1,89 @@
+
+/* pagina estilo articulos-blog */
+
+.blog-columns{
+    background-color: #ddd;
+
+
+}
+		#container{
+			background-color: white;
+			margin: 0 auto;
+			width: 800px;
+			padding: 20px;
+
+			
+		}
+
+		article{
+			padding-top: 20px;
+			column-count: 3;
+            /* número de columnas */
+			column-gap: 20px;
+            /* espacio entre columnas */
+			column-rule: dotted 4px #ccc;
+            /* permite especificar una linea que separe los párrafos (bordes) */
+            /* dotted - punteado */
+			
+		}
+        /* figuras con bordes avanzados */
+
+        
+        #container2{
+            background: url(/ejercicio8/imagenes/foto.png);
+            border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+            width: 400px;
+            height: 400px;
+            margin: 0 auto;
+            transition: all 1s;
+        }
+        #container2:hover{
+            border-radius: 44% 56% 87% 13% / 68% 86% 14% 32% ;
+        }
+        /* https://9elements.github.io/fancy-border-radius/
+        Generador de bordes chulos */
+
+        /* Truco para hacer mejores y mas rápidas animaciones */
+
+
+        
+    /* vuelo superman */
+
+    .superman-vuelo{
+        height: 140vh;
+        overflow: hidden;
+        background: #01182c;
+        
+    }
+    .sky .star {
+        position: absolute;
+        animation: stars 5s linear infinite;
+    }
+    .sky .superman {
+        position: absolute;
+        width: 750px;
+        margin-top: 90px;
+        animation: flying 5s linear infinite;
+        
+    }
+    @keyframes stars{
+        0% {
+            transform: translateX(0px);
+        }
+        100%{
+            transform: translateX(-200px);
+        }
+    }
+    @keyframes flying{
+        0%{
+            transform: translateX(0);
+        }
+        100%{
+            transform: translateX(1000px);
+        }
+    }
+  
+    audio{
+  margin-top: 20px;
+  padding: 15px;
+  }

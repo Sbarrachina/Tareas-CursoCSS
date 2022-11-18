@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejercicio 10</title>
+    <link rel="stylesheet" href="ejercicio10.css" />
+  </head>
+  <body>
+    <header>
+      <a href="#">Sbarrachina</a>
+      <div>
+        <button id="bdark">Modo oscuro</button>
+      </div>
+    </header>
+
+<main>
+
+<section>
+
+<h1>Aprender a escribir en pocos pasos</h1>
+<div class="datos">
+Por: <a href="#">Sandra Barrachina</a>
+
+</div>
+
+<img src="/ejercicio10/imagenes/imagen.jpeg" alt="" class="portada">
+
+<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. <strong> Rerum facilis doloribus vitae sint</strong> corrupti dolore 
+repellendus repudiandae temporibus quibusdam ut! Alias magni fugiat esse soluta iusto possimus eius distinctio? Soluta!</p>
+
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam repellendus modi cum,
+libero sed exercitationem alias animi <a href="#">ducimus corrupti quis porro impedit.</a>  Eaque voluptatibus consequuntur 
+debitis ex. Pariatur, nostrum!</p>
+
+<p>
+
+    <blockquote> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel,
+         doloribus culpa ratione illo dolore dolorem deleniti, nemo laborum consequatur sit enim.
+          Officia culpa ducimus ratione consequuntur ea aliquam porro doloribus.</blockquote>
+
+</p>
+
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam est nam aperiam ipsa recusandae,
+     quas eos necessitatibus consequuntur veniam pariatur, similique id veritatis, reiciendis magni delectus
+      accusantium minus unde ratione?</p>
+
+</section>
+
+</main>
+
+<script>
+    const bdark = document.querySelector('#bdark');
+    const body = document.querySelector('body');
+
+    load();
+
+    bdark.addEventListener('click', e =>{
+        body.classList.toggle('darkmode');
+        store(body.classList.contains('darkmode'));
+
+    });
+
+    function load(){
+        const darkmode = localStorage.getItem('darkmode');
+
+        if(!darkmode){
+            store('false');
+        }else if(darkmode == 'true'){
+            body.classList.add('darkmode');
+
+        }
+
+    }
+
+    function store(value){
+        localStorage.setItem('darkmode', value);
+
+    }
+
+
+</script>
+
+
+
+
+
+
+  </body>
+</html>

@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejercicio 9</title>
+    <link rel="stylesheet" href="ejercicio9.css" />
+
+    
+  </head>
+  <body>
+    <section class="burguer">
+      <div id="main-container">
+        <div id="hamburger">
+          <button>
+            <span class="top-line"></span>
+            <span class="middle-line"></span>
+            <span class="bottom-line"></span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <script>
+      const nav = document.querySelector("#hamburger button");
+      nav.addEventListener("click", (e) => {
+        nav.classList.toggle("open");
+      });
+    </script>
+
+    <section class="filtros-fotos">
+      <div class="poster">
+        <img
+          src="/ejercicio9/imagenes/superman-and-lois-poster.jpeg"
+          alt=""
+          id="image01"
+        />
+        <img
+          src="/ejercicio9/imagenes/supermanlois.jpg_large"
+          alt=""
+          id="image02"
+        />
+        <img src="/ejercicio9/imagenes/sups.jpeg" alt="" id="image03" />
+      </div>
+    </section>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+
+    <section class="stories">
+      <div id="stories-wrapper">
+        <div id="stories-container2">
+          <button class="story">
+            <div class="profile">
+              <img
+                src="/ejercicio9/imagenes/me_avatar.jpeg"
+                alt=""
+              />
+            </div>
+            <div class="title">Sandra Barrachina</div>
+          </button>
+          <button class="story ">
+            <div class="profile ">
+              <img
+                src="/ejercicio9/imagenes/john.jpeg"
+                alt=""
+              />
+            </div>
+            <div class="title">Sandra Barrachina</div>
+          </button>
+          <button class="story">
+            <div class="profile">
+              <img
+                src="/ejercicio9/imagenes/luis.jpeg"
+                alt=""
+              />
+            </div>
+            <div class="title">Sandra Barrachina</div>
+          </button>
+          <button class="story">
+            <div class="profile">
+              <img
+                src="/ejercicio9/imagenes/sara.jpeg"
+                alt=""
+              />
+            </div>
+            <div class="title">Sandra Barrachina</div>
+          </button>
+         
+        </div>
+      </div>
+    </section>
+
+    <br><br><br><br>
+
+    <section class="cafe">
+      <div id="container3">
+        <div class="steam" id="steam1"> </div>
+        <div class="steam" id="steam2"> </div>
+        <div class="steam" id="steam3"> </div>
+        <div class="steam" id="steam4"> </div>
+      
+        <div id="cup">
+          <div id="cup-body">
+            <div id="cup-shade"></div>
+          </div>
+          <div id="cup-handle"></div>
+        </div>
+      
+        <div id="saucer"></div>
+      
+        <div id="shadow"></div>
+      </div>
+      
+
+      <br><br><br><br>
+
+<!-- maquina de cafe -->
+
+<section class="maquinacafe">
+
+<div class="container4">
+  <div class="coffee-header">
+    <div class="coffee-header__buttons coffee-header__button-one"></div>
+    <div class="coffee-header__buttons coffee-header__button-two"></div>
+    <div class="coffee-header__display"></div>
+    <div class="coffee-header__details"></div>
+  </div>
+  <div class="coffee-medium">
+    <div class="coffe-medium__exit"></div>
+    <div class="coffee-medium__arm"></div>
+    <div class="coffee-medium__liquid"></div>
+    <div class="coffee-medium__smoke coffee-medium__smoke-one"></div>
+    <div class="coffee-medium__smoke coffee-medium__smoke-two"></div>
+    <div class="coffee-medium__smoke coffee-medium__smoke-three"></div>
+    <div class="coffee-medium__smoke coffee-medium__smoke-for"></div>
+    <div class="coffee-medium__cup"></div>
+  </div>
+  <div class="coffee-footer"></div>
+</div>
+
+</section>
+
+
+<section class="avatar-anime">
+
+  <div class="container5">
+    <div class="avatar">
+      <a href="#">
+        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/751678/skytsunami.png" alt="Skytsunami" />
+      </a>
+    </div>
+    <div class="content">
+      <h1>Floating CSS animation</h1>
+      <p>Follow me on:</p>
+      <p>BY: John Doe</p>
+
+      
+    </div>
+  </div>
+  
+  
+
+</section>
+
+
+
+
+
+
+
+
+
+  </body>
+</html>

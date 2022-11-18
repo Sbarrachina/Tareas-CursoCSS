@@ -1,0 +1,81 @@
+body{
+    background-image: url(/Animación/imagenes/cielo_estrellado_naturaleza_1920x1200.jpg);
+
+}
+		/* ANIMACIÓN SOL  */
+		@keyframes rotacion{
+			from{transform: rotateZ(0deg);}
+
+			to{transform: rotateZ(360deg);}
+		}
+
+		/* ANIMACIÓN DE LA TIERRA */
+		@keyframes traslacion{
+			0% {z-index: 1;}
+
+			25% {left: 950px;}
+			50% {left: 1900px;}
+			51% {z-index: -1;}
+			/* 51% INVIERTA LA IMAGEN */
+			75% {left: 950px;}
+			100% {left: 0; z-index: -1;}
+		}
+
+		@keyframes sombra{
+			0%  {opacity: 1;}
+			25% {opacity: 0;}
+			50% {opacity: 1;}
+			75% {opacity: 0;}
+			100%{opacity: 1;}
+		}
+		/*
+			Nombre
+			Duracion: seg
+			Funcion: linear | ease | ease-in | ease-out | ease-in-out
+			Delay: seg
+			Iteraciones: número | infinite
+			Dirección: alternate | reverse
+		*/
+		#sol{
+			position: absolute;
+			margin-left: auto;
+			margin-right: auto;
+			left: 0;
+			right: 0;
+			top: 200px;
+			width: 400px;
+			height: 400px;
+			/* AQUI EMPIEZA LA ANIMACIÓN */
+			animation-name: rotacion;
+			animation-duration: 30s;
+			animation-iteration-count: infinite;
+			/* PARA QUE SE REPITA LA ANIMACION INFINITAMENTE */
+			animation-timing-function: linear;
+			/* PARA QUE SEA LINEAL LA ANIMACIÓN */
+		}
+
+		#tierra{
+			background-color: black;
+			border-radius: 50%;
+			position: absolute;
+			margin-left: auto;
+			margin-right: auto;
+			padding: 0;
+			left: 0;
+			top: 425px;
+			width: 40px;
+			height: 40px;
+			z-index: 1;
+
+			/* AQUI EMPIEZA ANIMACIÓN */
+			animation-name: traslacion;
+			animation-duration: 20s;
+			animation-timing-function: linear;
+			animation-iteration-count: infinite;
+		}
+
+		#img-tierra{
+			animation-name: sombra;
+			animation-duration: 20s;
+			animation-timing-function: linear;
+		}

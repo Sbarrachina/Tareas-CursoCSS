@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tienda Online Uno</title>
+    <link rel="stylesheet" href="tienda.css" />
+
+    <!-- fuente letra -->
+  </head>
+  <body>
+    <header>
+      <h1>Logo</h1>
+    </header>
+
+    <div class="container-title">Zapatos</div>
+
+    <main>
+      <div class="container-img">
+        <img
+          src="/TIENDA-ONLINE-1/img/photo-1560769629-975ec94e6a86.avif"
+          alt="imagen-producto"
+        />
+      </div>
+
+      <div class="container-info-product">
+        <div class="container-price">
+          <span>$95.00</span>
+          <i class="fa-regular fa-chevron-right"></i>
+        </div>
+
+        <div class="container-details-product">
+          <div class="form-group">
+            <label for="colour">color</label>
+            <select name="colour" id="colour">
+              <option disabled selected value="">Escoge una opción</option>
+              <option value="rojo">Rojo</option>
+              <option value="blanco">Blanco</option>
+              <option value="beige">Beige</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="size">Talla</label>
+            <select name="size" id="size">
+              <option disabled selected value="">Escoge una opción</option>
+              <option value="40">40</option>
+              <option value="42">42</option>
+              <option value="43">43</option>
+              <option value="44">44</option>
+            </select>
+          </div>
+          <button class="btn-clean">Limpiar</button>
+        </div>
+
+        <div class="container-add-cart">
+          <div class="container-quantity">
+            <input
+              type="number"
+              placeholder="1"
+              value="1"
+              min="1"
+              class="input-quantity"
+            />
+
+            <div class="btn-increment-decrement">
+              <i class="fa-solid fa-chevron-up"></i>
+              <i class="fa-solid fa-chevron-down"></i>
+            </div>
+          </div>
+          <button class="btn-add-to-cart">
+            <i class="fa-solid fa-plus"></i>
+            Añadir al carrito
+          </button>
+        </div>
+
+
+        
+      </div>
+    </main>
+
+    <footer>
+      <p>footer</p>
+    </footer>
+
+    <script
+      src="https:kit.fontawesome.com/81581fb069.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="/TIENDA-ONLINE-1/tienda.js"></script>
+  </body>
+</html>

@@ -85,11 +85,12 @@ display: none;
       top:20px;
       right: 20px;
       cursor: pointer;
+      
   }
 .nav-menu ul{
   display: block;
   position: fixed;
-  top: 70px;
+  top: 80px;
   left: -100%;
   background: white;
   width: 100%;
@@ -98,16 +99,25 @@ display: none;
 
 }
 .nav-menu ul li{
-  padding: 0.5rem;
   display: flex;
   justify-content: center;
   margin: 0;
+  padding: 0;
 }
 
 .nav-menu ul li :last-child{
   background: none;
   padding: 0rem;
 }
+
+body{
+margin-top: 160px;
+
+
+}
+
+
+
 #check:checked ~ ul{
   left: 0;
   transition: all .25s;
@@ -429,7 +439,7 @@ strong {
 
 #section-7 {
   background-color: #F6F6F6;
-  background-image: url(../images/sec7.jpg);
+  background-image: url(/Sobremi_paraWeb/images/ros_img/emma-sec7.png);
 }
 /* INTRO TITLE */
 

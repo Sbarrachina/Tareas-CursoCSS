@@ -6,10 +6,12 @@
 }
 
 :root{
-    --primary-color:#dd6106;
+    --primary-color:#f01313;
     --secondary-color:#1e1e1e;
     --light-color:#fff;
     --dark-color:#000;
+
+   
 }
 html{
     scroll-behavior: smooth;
@@ -37,7 +39,7 @@ height: 100vh;
 }
 
 .home{
-    background-image: url(/noel_web/img/bg.png);
+    background-image: url(/noel_web/img/navidad/118074.jpeg);
     background-size: cover;
 }
 .navbar{
@@ -46,11 +48,16 @@ height: 100vh;
 }
 
 .navbar__brand{
-    color: var(--light-color);
+    color: var(--dark-color);
+    background-image: url(/noel_web/img/navidad/fondo-texto.jpeg);
+    background-size: cover;
+    padding: 10px 3em;
+    border-radius: 20px;
+
 }
 
 .navbar__brand--span{
-    color: var(--primary-color);
+    color: var(--dark-color);
 }
 
 .menu__link{
@@ -58,13 +65,19 @@ height: 100vh;
     margin-right: 2em;
 }
 .menu__item{
-    color: var(--light-color);
+    color: var(--primary-color);
+    background-color: var(--light-color);
     font-size: 1.2em;
+    border-radius: 20px;
+    padding: 10px 3em;
+    border: none;
+    border-radius: 50px;
+    
 }
 
 .menu__item:hover{
-    color: var(--primary-color);
-
+background-color: var(--primary-color);
+color: var(--light-color);
 
 }
 .navbar .fa-solid{
@@ -95,13 +108,23 @@ height: 100vh;
     padding: 10px 3em;
     border: none;
     border-radius: 50px;
-    background-color: var(--primary-color);
+    background-color: var(--light-color);
+    color: var(--primary-color);
+    font-family: 'Knewave', sans-serif;
+
+}
+
+
+.button:hover{
+background-color: var(--primary-color);
+color: var(--light-color);
+
 }
 
 /*  BLOG  */
 
 .wrapper-blog{
-    background-image: url(/noel_web/img/blog.png);
+    background-image: url(/noel_web/img/navidad/206753.jpeg);
     background-size: cover;
 }
 
@@ -109,7 +132,9 @@ height: 100vh;
     width: 100vw;
     flex-direction: column;
     align-items: center;
-    background-color: var(--dark-color);
+    background-color: var(--primary-color);
+    background: radial-gradient( #fff, rgb(4, 31, 90));
+
     color: var(--light-color);
     padding-bottom: 5em;
 }
@@ -145,32 +170,32 @@ height: 100vh;
     width: 100%;
     height: 248px;
     border-radius: 20px;
-    background-image: url(/noel_web/img/cards/1.png);
+    background-image: url(/noel_web/img/navidad/story-1.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
 .card__img-2{
   
-    background-image: url(/noel_web/img/cards/2.png);
+    background-image: url(/noel_web/img/navidad/story-2.png);
 }
 .card__img-3{
   
-    background-image: url(/noel_web/img/cards/3.png);
+    background-image: url(/noel_web/img/navidad/story-3.png);
 }
 
 .card__img-4{
   
-    background-image: url(/noel_web/img/cards/4.png);
+    background-image: url(/noel_web/img/navidad/story-4.png);
 }
 
 .card__img-5{
   
-    background-image: url(/noel_web/img/cards/5.png);
+    background-image: url(/noel_web/img/navidad/story-5.png);
 }
 
 .card__img-6{
   
-    background-image: url(/noel_web/img/cards/6.png);
+    background-image: url(/noel_web/img/navidad/story-6.png);
 }
 
 .card__info{
@@ -183,10 +208,12 @@ height: 100vh;
     background-color: var(--primary-color);
     font-family: 'khula',sans-serif;
     padding: .5em;
+    color: var(--light-color);
 }
 .dark-button{
-    background-color: var(--dark-color);
-    color: var(--light-color);
+    background-color: var(--light-color);
+    color: var(--primary-color);
+    margin-top: 15px;
 }
 
 .content-info__title--blog{
@@ -200,6 +227,89 @@ height: 100vh;
 font-family: 'khula',sans-serif;
 
 }
+
+
+/* contacto page */
+.contacto{
+    background-image: url(/noel_web/img/navidad/973179.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.content-info__contacto-info {
+padding-top: 30px;
+font-size: clamp(3em,10vw,5em);
+
+
+
+}
+
+.content-info__subtitle{
+padding-top: 10px;
+font-size: clamp(1em,5vw,1.2em);
+
+
+
+}
+
+form {
+    width: 500px;
+    margin: auto;
+    background: rgba(28, 141, 178, 0.4);
+    padding: 40px 30px;
+    box-sizing: border-box;
+    margin-top: 100px;
+    border-radius: 7px;
+}
+h2{
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+input, textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border: none;
+}
+
+textarea {
+min-height: 100px;
+max-height: 200px;
+max-width: 100%;
+}
+#boton{
+    background: var(--light-color);
+    color: var(--primary-color);
+    font-family: 'Knewave', sans-serif;
+    font-size: 1.2em;
+    padding: 10px 3em;
+    border-radius: 50px;
+
+}
+#boton:hover {
+    cursor: pointer;
+    background-color: var(--primary-color);
+    color: var(--light-color);
+}
+@media (max-width:480px){
+    form{
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
 
 @media screen and (max-width: 768px){
     .menu{

@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Christmas Welcome</title>
+    <title>Christmas Contacto</title>
     <link rel="stylesheet" href="/noel_web/css/styles.css" />
     <link
       rel="stylesheet"
@@ -14,7 +14,7 @@
   </head>
 
   <body>
-    <div class="wrapper home">
+    <div class="wrapper contacto">
       <nav class="navbar flex">
         <a href="/noel_web/index.html">
           <h2 class="navbar__brand">
@@ -23,7 +23,7 @@
         </a>
 
         <ul class="menu flex" id="menu">
-          <li class="menu__link"><a class="menu__item" href="">HOME</a></li>
+          <li class="menu__link"><a class="menu__item" href="/noel_web/index.html">HOME</a></li>
           <li class="menu__link">
             <a class="menu__item" href="blog.html">HISTORIAS</a>
           </li>
@@ -35,15 +35,28 @@
       <div
         class="content-info flex-center"
         data-aos="fade-down"
-        data-aos-duration="3000"
-      >
-        <span class="content-info__subtitle">NAVIDAD 2022</span>
-        <h1 class="content-info__title">CHRISTMAS STORIES</h1>
-        <a href="/noel_web/blog.html">
-          <button class="button primary-button">ENTER</button>
-        </a>
+        data-aos-duration="3000" >
+        
+        <h1 class="content-info__contacto-info">CONTACTO</h1>
+        <span class="content-info__subtitle">PUEDES ENVIAR MENSAJES EN ESTE FORMLARIO</span>
+
+        <form action="https://formspree.io/f/mpzbokrb"
+        method="POST">
+        
+        <input type="text"  placeholder="Nombre" name="Nombre"/>
+        <input type="text"  placeholder="Asunto" name="Asunto"/>
+        <input type="email" placeholder="Mail"name="Email"/>
+        
+        <textarea placeholder="Escriba aquí su mensaje"name="mensaje" ></textarea>
+        <button type="submit" class="btn-info" id="boton">ENVIAR</button>
+        
+        </form>
+  
+        
       </div>
+
     </div>
+    
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="/noel_web/js/scripts.js"></script>

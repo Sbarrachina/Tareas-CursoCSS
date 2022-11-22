@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<title>Tienda</title>
+		<link rel="stylesheet" href="/TIENDA-ONLINE-3/tienda-online.css" />
+	
+	<!-- link navbar -->
+	<link
+	rel="stylesheet"
+	type="text/css"
+	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+  />
+
+  <!-- skills -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+	href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap"
+	rel="stylesheet"
+  />
+
+  <!-- 
+		- favicon
+	  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml" />
+
+
+
+
+
+
+	
+	<!-- fin -->
+	<!-- barra navegación -->
+	
+	</head>
+	<body>
+		<header class="header">
+			<div class="logo-header">
+			  <img src="/Sobremi_paraWeb/images/ros_img/LOGO-ROS-INTERIOR-DESIGN.png" alt="" />
+			</div>
+			<nav class="nav-menu">
+			  <input type="checkbox" id="check" />
+			  <label for="check" class="checkbtn">
+				<i class="menu-icon"><img src="/Sobremi_paraWeb/images/ros_img/bars_black.png" alt="" /></i>
+			  </label>
+		
+			  <ul>
+				<li><a href="#">HOME</a></li>
+				<li><a href="#">TRABAJOS</a></li>
+				<li><a href="#">SERVICIOS</a></li>
+				<li><a href="#">SHOP</a></li>
+				<li><a href="#">SOBRE MÍ</a></li>
+				<li><a href="#">CONTACTO</a></li>
+				<!-- <li><a href="formu4.html">CONTACTO2</a></li> -->
+		
+			  </ul>
+			</nav>
+
+
+
+
+<!-- fin navbar -->
+
+
+
+
+			<div class="container-icon">
+				<div class="container-cart-icon">
+					<svg
+					xmlns="http://www.w3.org/2000/svg"
+					fill="none"
+					viewBox="0 0 24 24"
+					stroke-width="1.5"
+					stroke="currentColor"
+					class="icon-cart"
+				>
+					<path
+						stroke-linecap="round"
+						stroke-linejoin="round"
+						d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z"
+					/>
+				</svg>
+				<div class="count-products">
+					<span id="contador-productos">0</span>
+				</div>
+				</div>
+				
+
+				<div class="container-cart-products hidden-cart">
+					<div class="row-product hidden">
+						<div class="cart-product">
+							<div class="info-cart-product">
+								<span class="cantidad-producto-carrito">1</span>
+								<p class="titulo-producto-carrito">Diseño Online</p>
+								<span class="precio-producto-carrito">€250</span>
+							</div>
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								fill="none"
+								viewBox="0 0 24 24"
+								stroke-width="1.5"
+								stroke="currentColor"
+								class="icon-close"
+							>
+								<path
+									stroke-linecap="round"
+									stroke-linejoin="round"
+									d="M6 18L18 6M6 6l12 12"
+								/>
+							</svg>
+						</div>
+
+					</div>
+					
+                    <div class="cart-total hidden">
+                        <h3>Total:</h3>
+                        <span class="total-pagar">€200</span>
+                    </div>
+					<p class="cart-empty">El carrito está vacio</p>
+			
+				</div>
+			</div>
+		</header>
+		<div class="container-items">
+			<div class="item">
+				<figure>
+					<img
+						src="/TIENDA-ONLINE-3/img/producto1.png"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Diseño Online</h2>
+					<p class="price">€250</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img
+						src="/TIENDA-ONLINE-3/img/interiorismo reformas integrales/1.png"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Interiorismo</h2>
+					<p class="price">€5000</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img
+						src="/TIENDA-ONLINE-3/img/interiorismo reformas integrales/2.png"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Reforma</h2>
+					<p class="price">€43350</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+			<div class="item">
+				
+			</div>
+		</div>
+
+
+		 <!-- footer -->
+		 <footer class="footer">
+			<div class="container2">
+			  <div class="row2">
+				<div class="footer-col">
+				  <h4>Sandra Barrachina Code </h4>
+				  <ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Trabajos</a></li>
+	  
+					<li><a href="#">Servicios</a></li>
+	  
+					<li><a href="#">Shop</a></li>
+					<li><a href="#">Sobre Mi</a></li>
+	  
+					<li><a href="#">Contacto</a></li>
+				  </ul>
+				</div>
+	  
+				<div class="footer-col">
+				  <h4>Sígueme</h4>
+				  <div class="social-links">
+					<a href="#"><i class="fab fa-instagram"></i></a>
+					<a href="#"><i class="fab fa-linkedin-in"></i></a>
+					<a href="#"><i class="fab fa-facebook-f"></i></a>
+				  </div>
+				</div>
+			  </div>
+			</div>
+		  </footer>
+
+        <script src="/TIENDA-ONLINE-3/tienda-online.js"></script>
+	</body>
+</html>

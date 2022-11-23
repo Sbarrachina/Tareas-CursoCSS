@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda Online 4</title>
+    <link rel="stylesheet" href="/TIENDA-ONLINE-4/tienda-4.css">
+
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+  />
+</head>
+<body>
+    <header class="main-header">
+        <div class="container container--flex">
+          <div class="main-header__container">
+            <h1 class="main-header__title">SBARRACHINA BOOKS</h1>
+            <span class="icon-menu" id="btn-menu"><i class="fas fa-bars"></i></span>
+            <nav class="main-nav" id="main-nav">
+              <ul class="menu">
+                <li class="menu__item"><a href="" class="menu__link">HOME</a></li>
+                <li class="menu__item"><a href="" class="menu__link">ABOUT</a></li>
+                <li class="menu__item"><a href="" class="menu__link">FEATURES</a></li>
+                <li class="menu__item"><a href="" class="menu__link">SHOP</a></li>
+                <li class="menu__item"><a href="" class="menu__link">CONTACT</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="main-header__container">
+            <span class="main-header__txt"></span>
+            <p class="main-header__txt"><i class="fas fa-phone"></i> Call 12345678099</p>
+          </div>
+          <div class="main-header__container">
+            <a href="" class="main-header__link"><i class="fas fa-user"></i></a>
+            <a href="" class="main-header__btn">My cart <i class="fas fa-shopping-cart"></i></a>
+            <input type="search" class="main-header__input" placeholder="Buscar productos"><i class="fas fa-search"></i>
+          </div>
+        </div>
+      </header>
+      <div class="container-slider">
+        <div class="slider" id="slider">
+          <div class="slider__section">
+            <img src="https://images.pexels.com/photos/4144923/pexels-photo-4144923.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" class="slider__img">
+            <div class="slider__content">
+              <h2 class="slider__title">Victor Hugo</h2>
+              <p class="slider__txt">La risa es el sol que ahuyenta el invierno del rostro humano</p>
+              <a href="" class="btn-shop">COMPRAR</a>
+            </div>
+          </div>
+          <div class="slider__section">
+            <img src="https://images.pexels.com/photos/3944104/pexels-photo-3944104.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" class="slider__img">
+            <div class="slider__content">
+              <h2 class="slider__title">Oscar Wilde</h2>
+              <p class="slider__txt">Sé tú mismo, el resto de los papeles están cogidos</p>
+              <a href="" class="btn-shop">COMPRAR</a>
+            </div>
+          </div>
+          <div class="slider__section">
+            <img src="https://images.pexels.com/photos/6347530/pexels-photo-6347530.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" class="slider__img">
+            <div class="slider__content">
+              <h2 class="slider__title">Charles Dickens</h2>
+              <p class="slider__txt">La verdadera grandeza consiste en hacer que todos se sientan grandes</p>
+              <a href="" class="btn-shop">COMPRAR</a>
+            </div>
+          </div>
+          <div class="slider__section">
+            <img src="https://images.pexels.com/photos/4210779/pexels-photo-4210779.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" class="slider__img">
+            <div class="slider__content">
+              <h2 class="slider__title">Mario Benedetti</h2>
+              <p class="slider__txt">Usted no sabe como yo valoro su sencillo coraje de quererme</p>
+              <a href="" class="btn-shop">COMPRAR</a>
+            </div>
+          </div>
+        </div>
+        <div class="slider__btn slider__btn--right" id="btn-right">&#62;</div>
+        <div class="slider__btn slider__btn--left" id="btn-left">&#60;</div>
+      </div>
+      <main class="main">
+        <div class="container">
+          <h2 class="main-title">Nuevas Experiencia para ti</h2>
+          <section class="container-products">
+            <div class="product">
+              <img src="https://images.pexels.com/photos/1029141/pexels-photo-1029141.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" class="product__img">
+              <div class="product__description">
+                <h3 class="product__title">Dickens</h3>
+                <span class="product__price">€25.00</span>
+              </div>
+              <i class="product__icon fas fa-cart-plus"></i>
+            </div>
+            <div class="product">
+              <img src="https://images.pexels.com/photos/694740/pexels-photo-694740.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" class="product__img">
+              <div class="product__description">
+                <h3 class="product__title">Shakespeare</h3>
+                <span class="product__price">€35.00</span>
+              </div>
+              <i class="product__icon fas fa-cart-plus"></i>
+            </div>
+            <div class="product">
+              <img src="https://images.pexels.com/photos/904616/pexels-photo-904616.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+              <div class="product__description">
+                <h3 class="product__title">Cortaza</h3>
+                <span class="product__price">€25.50</span>
+              </div>
+              <i class="product__icon fas fa-cart-plus"></i>
+            </div>
+            <div class="product">
+              <img src="https://images.pexels.com/photos/159866/books-book-pages-read-literature-159866.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" class="product__img">
+              <div class="product__description">
+                <h3 class="product__title">Leroux</h3>
+                <span class="product__price">€32.00</span>
+              </div>
+              <i class="product__icon fas fa-cart-plus"></i>
+            </div>
+          </section>
+          <section class="container__testimonials">
+            <h2 class="section__title">Frase del día</h2>
+            <h3 class="testimonial__title">Ruben Dario </h3>
+            <p class="testimonial__txt">El libro es fuerza, es valor,es alimento; antorcha del pensamiento y manantial del amor.</p>
+          </section>
+        
+          <div class="container-editor">
+            <div class="editor__item">
+              <img src="https://images.pexels.com/photos/1448709/pexels-photo-1448709.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" class="editor__img">
+              <p class="editor__circle">EXPRESS YOUR STYLE NOW</p>
+            </div>
+            <div class="editor__item">
+              <img src="https://images.pexels.com/photos/1741231/pexels-photo-1741231.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" class="editor__img">
+              <p class="editor__circle">EXPRESS YOUR STYLE NOW</p>
+            </div>
+          </div>
+          <section class="container-tips">
+            <div class="tip">
+              <i class="far fa-hand-paper"></i> 
+              <h2 class="tip__title">Los mejores libros</h2>
+              <p class="tip__txt">Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit</p>
+              <a href="" class="btn-shop">COMPRAR</a>
+            </div>
+            <div class="tip">
+             <i class="fas fa-rocket"></i>
+              <h2 class="tip__title">Cursos de escritura</h2>
+              <p class="tip__txt">Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
+              <a href="" class="btn-shop">COMPRAR</a>
+            </div>
+            <div class="tip">
+              <i class="fas fa-cog"></i>
+              <h2 class="tip__title">Autopublicación</h2>
+              <p class="tip__txt">Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
+              <a href="" class="btn-shop">COMPRAR</a>
+            </div>
+          </section>
+        </div>
+      </main>
+      <footer class="main-footer">
+        <div class="footer__section">
+          <h2 class="footer__title">About Us</h2>
+          <p class="footer__txt">Curabitur non nulla sit amet nislinit tempus convallis quis ac lectus. lac inia eget consectetur sed, convallis at tellus. Nulla porttitor accumsana tincidunt.</p>
+        </div>
+        <div class="footer__section">
+          <h2 class="footer__title">Location :</h2>
+          <p class="footer__txt">0926k 4th block building, king Avenue, New York City</p>
+          <h2 class="footer__title">Contact</h2>
+          <p class="footer__txt">Phone : +121 098 8907 9987</p>
+          <p class="footer__txt">Email : info@example.com</p>
+        </div>
+        <div class="footer__section">
+          <h2 class="footer__title">Quick Links</h2>
+          <a href="" class="footer__link">Home</a>
+          <a href="" class="footer__link">About</a>
+          <a href="" class="footer__link">Error</a>
+          <a href="" class="footer__link">Shop</a>
+          <a href="" class="footer__link">Contact Us</a>
+        </div>
+        <div class="footer__section">
+          <h2 class="footer__title">Sign up for your offers</h2>
+          <p class="footer__txt">By subscribing to our mailing list you will always get latest news and updates from us.</p>
+          <input type="email" class="footer__input" placeholder="Enter your email">
+        </div>
+        <p class="copy">© 2022 Sbarrachina. All Rights Reserved | Design by Sandra Barrachina Code</p>
+      </footer>
+
+    <script src="/TIENDA-ONLINE-4/tienda-4.js"></script>
+</body>
+</html>

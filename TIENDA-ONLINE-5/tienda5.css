@@ -1,0 +1,150 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,700;1,400;1,700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  font-family: monospace;
+}
+
+.header{
+ background-image: url(https://kewayshop.com/modules/bonslick/views/img/ee0711768f416478fc3b9df24cff387411e501a6_BannerFunkoPOP.jpg);
+ background-size: cover;
+ background-repeat: no-repeat;
+ width: 100vw;
+ height: 90vh;
+}
+  
+.text-center{
+  font-family: 'Comic Neue', cursive;
+  font-size: 130PX;
+  padding: 12px;
+  color:#1294ce
+}
+
+
+.item {
+  border: 2px solid #000;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.item-title {
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 600;
+}
+
+.item-image {
+  width: 100%;
+  height: 300px;
+;
+
+}
+.item-image:hover{
+  transform: scale(1.8);
+}
+
+.item-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0px 15px;
+  height: 100%;
+}
+
+.item-details > .item-price {
+  margin: 0 auto;
+}
+
+/* ? SHOPPING CART */
+.shopping-cart-items {
+  padding: 20px 0px;
+}
+
+.shopping-cart-header {
+  border-bottom: 1px solid #ccc;
+}
+
+.shopping-cart-image {
+  max-width: 80px;
+  border-radius: 20px;
+}
+
+.shopping-cart-quantity-input {
+  max-width: 45px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background: #eee;
+  padding: 5px;
+}
+
+.shopping-cart-total {
+  min-height: 96px;
+}
+
+.item-button{
+  margin: 0 auto; 
+  background-color: white;
+  color:#1294ce;
+  padding: 8px;
+  border-radius: 20px;
+}
+.item-button:hover{
+  background-color:#1294ce;
+  color: white;
+
+}
+.cart{
+  margin: 0 auto;
+  width: 50%;
+}
+.shopping-cart{
+  width: 50%;
+  margin: 0 auto;
+}
+.comprarButton{
+  background-color: white;
+  color:#1294ce;
+  padding: 8px;
+  border-radius: 20px;
+}
+.comprarButton:hover{
+  background-color:#1294ce;
+  color: white;
+}
+footer{
+background-image: url(https://www.festivaliaonline.cat/imagenes/poridentidad?identidad=62b0ab12-c896-4ac3-8f18-a8fc0e044c4a&ancho=&alto=);
+background-size: cover;
+background-repeat: no-repeat;
+height: 50vh;
+}
+
+
+
+
+@media screen and (min-width:500px) { 
+  .header{
+    
+    display: none;
+    }
+    
+}
+  
+@media screen and (min-width:1024px) { 
+  .header{
+    
+    display: block;
+    }
+   
+    
+}
+

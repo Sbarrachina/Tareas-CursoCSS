@@ -12,7 +12,7 @@ body{
 .navbar{
     display: flex;
     align-items: center;
-    padding: 20px;
+    padding: 40px;
 
 }
 nav{
@@ -36,6 +36,11 @@ a{
 p{
     color: #555;
 }
+
+
+
+
+
 .container{
     max-width: 1300px;
     max-width: auto;
@@ -47,6 +52,7 @@ p{
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-around;
+    margin-left: 150px;
 }
 .col-2{
     flex-basis: 50%;
@@ -55,8 +61,9 @@ p{
 }
 
 .col-2 img{
-    max-width: 100%;
+    max-width: 110%;
     padding: 50px 0;
+    margin-left: 150px;
 
 }
 .col-2 h1{
@@ -64,9 +71,14 @@ p{
     line-height: 60px;
     margin: 25px 0;
 }
+
+#violin{
+    margin-right: -30%
+}
+
 .btn{
     display: inline-block;
-    background: #ff523b;
+    background: #3b3bff;
     color: white;
     padding: 8px 30px;
     margin: 30px 0;
@@ -80,7 +92,7 @@ background:#563434;
 }
 
 .header{
-    background: radial-gradient(#fff,#ffd6d6);
+    background: radial-gradient(#fff,#d6f4ff);
 
 }
 .header .row{
@@ -127,7 +139,7 @@ margin-top: 70px ;
 
 .title::after{
     content: '';
-    background: #ff523b;
+    background: #3b3bff;;
     width: 80px;
     height: 5px;
     border-radius: 5px;
@@ -145,8 +157,223 @@ h4{
 
 }
 .rating .fa{
-    color: #ff523b;
+    color: #e6e320;
 }
 .col-4 :hover{
     transform: translateY(-5px);
 }
+
+/* Offer */
+
+.offer{
+    background: radial-gradient(#fff,#d6f4ff);
+    margin-top: 80px;
+    padding: 30px 0;
+}
+.col-2 .offer-img{
+    padding: 50px;
+
+}
+.col-2 img{
+    margin-left: -50px;
+}
+
+
+small{
+    color: #555;
+}
+/* testimonial */
+.testimonial{
+    padding-top: 100px;
+}
+.testimonial .col-3{
+    text-align: center;
+    padding: 40px 20px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+
+.testimonial .col-3 img{
+    width: 50px;
+    margin-top: 20px;
+    border-radius: 50%;
+}
+
+.testimonial .col-3:hover{
+    transform: translateY(-10px);
+}
+.fa.fa-quote-left{
+font-size: 34px;
+color: #3b3bff;;
+}
+.col-3 p{
+    font-size: 12px;
+    margin: 12px 0;
+    color: #777;
+}
+
+.testimonial .col-3 h3{
+    font-weight: 600;
+    color: #555;
+    font-size: 16px;
+    
+
+}
+/* brands */
+
+.brands{
+margin: 100px auto;
+}
+.col-5{
+    width: 160px;
+}
+.col-5 img{
+    width: 100%;
+    cursor: pointer;
+    filter: grayscale(100%);
+}
+.col-5 img:hover{
+    filter: grayscale(0);
+
+}
+/* footer */
+
+.footer{
+    background: #000;
+    color: #8a8a8a;
+    font-size: 14px;
+    padding: 60px 0 50px;
+    width: 100vw;
+
+}
+
+.footer .container{
+    margin-left: 200px;
+}
+.footer p{
+    color: #8a8a8a;
+
+}
+.footer h3{
+    color: #fff;
+    margin-bottom: 20px;
+}
+.footer-col-1 ,.footer-col-2 ,.footer-col-3 ,.footer-col-4{
+min-width: 250px;
+margin-bottom: 20px;
+}
+.footer-col-2{
+    flex:1;
+    text-align: center;
+
+}
+
+.footer-col-2 img{
+    width: 150px;
+    margin-bottom: 20px;
+    
+}
+
+.footer-col-3, .footer-col-4{
+    flex-basis: 12%;
+    text-align: center;
+    
+}
+ul{
+    list-style-type: none;
+}
+.app-logo{
+    margin-top: 20px;
+
+}
+.app-logo img{
+    width: 140px;
+}
+.footer hr{
+    border: none;
+    background: #b5b5b5;
+    height: 1px;
+    margin: 20px 0;
+}
+.copyright{
+    text-align: center;
+
+}
+.menu-icon{
+width: 28px;
+margin-left: 20px;
+display: none;
+    
+}
+
+/* menu bar */
+
+@media only screen and (max-width:800px){
+
+    nav ul {
+        position: absolute;
+        top: 70px;
+        left: 0;
+        background: rgb(127, 124, 124);
+        width: 100%;
+        overflow: hidden;
+        transition: max-height 0.5s;
+    }
+    nav ul li {
+        display: block;
+        margin-right: 50px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    nav ul li a {
+        color: white;
+    }
+
+    .menu-icon{
+        display: block;
+        cursor: pointer;
+    }
+
+    .col-2 img{
+        max-width: 110%;
+        padding: 50px 0;
+        margin-left: 0;
+    
+    }
+    .row{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-left: 0;
+    }
+    #violin{
+        margin-right: 0%;
+    }
+
+
+    .footer{
+        background: #000;
+        color: #8a8a8a;
+        font-size: 14px;
+        padding: 60px 0 50px;
+    
+    }
+    
+    .footer .container{
+        margin-left: 0px;
+    }
+
+
+    }
+
+    @media only screen and (max-width:600px){
+        .row{
+            text-align: center;
+        }
+        .col-2, .col-3, .col-4{
+            flex-basis: 100%;
+        }
+    }
+    

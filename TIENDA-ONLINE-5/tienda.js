@@ -118,3 +118,6 @@ function comprarButtonClicked() {
 }
 
 // -----
+
+// menu bar
+

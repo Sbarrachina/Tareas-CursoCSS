@@ -84,6 +84,7 @@ color: var(--light-color);
     color: var(--light-color);
     font-size: 2em;
     display: none;
+
 }
 
 
@@ -170,7 +171,7 @@ color: var(--light-color);
     width: 100%;
     height: 248px;
     border-radius: 20px;
-    background-image: url(/noel_web/img/navidad/story-1.png);
+    background-image: url(/noel_web/img/navidad/LaNavidadPerfecta.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -193,10 +194,7 @@ color: var(--light-color);
     background-image: url(/noel_web/img/navidad/story-5.png);
 }
 
-.card__img-6{
-  
-    background-image: url(/noel_web/img/navidad/story-6.png);
-}
+
 
 .card__info{
     width: 100%;
@@ -327,6 +325,7 @@ max-width: 100%;
     .navbar .fa-solid,
     .show-menu{
      display: block;
+
     }
 
     .menu__link{

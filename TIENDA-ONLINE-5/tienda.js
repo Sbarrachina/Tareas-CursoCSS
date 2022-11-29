@@ -117,7 +117,5 @@ function comprarButtonClicked() {
   updateShoppingCartTotal();
 }
 
-// -----
 
-// menu bar
 
